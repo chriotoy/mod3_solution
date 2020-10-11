@@ -1,0 +1,106 @@
+body {
+  font-size: 16px;
+  color: black;
+  font-family: 'Oxygen', sans-serif;
+}
+
+#header-nav {
+  background-color: grey;
+  border-radius: 0;
+}
+
+.navbar {
+	width:100%;
+	border: 2px solid black;
+}
+
+.navbar .container {
+	width:95%;
+}
+
+.page-name h1 {
+	vertical-align: middle;
+	margin-bottom: 20px;
+	color:black;
+	font-weight: bold;
+}
+
+.page-name a:hover,.page-name a:focus {
+	text-decoration: none;
+}
+
+#nav-list {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
+#nav-list a {
+  font-size: 1.3em;
+  color: black;
+  text-align: center;
+  background-color: white;
+}
+
+#nav-list a:hover {
+  background: #E7E7E7;
+}
+
+#nav-list a span {
+  font-size: 1.8em;
+}
+
+#nav-list hr {
+	margin: 0px;
+	border-color: black;
+}
+
+.navbar-header button.navbar-toggle, .navbar-header .icon-bar {
+  border: 1px solid black;
+}
+.navbar-header button.navbar-toggle {
+  clear: both;
+  margin-top: -55px;
+}
+
+/* *******    end of header    ******* */
+
+#main-content {
+	width: 95%;
+}
+
+.main-name h2 {
+	margin-bottom: 40px;
+	text-align: center;
+	font-weight: bold;
+}
+
+.content-detail {
+	border: 1px solid black;
+	background-color: grey;
+	margin-bottom: 50px;
+}
+
+.content-detail h3 {
+	text-align: center;
+	font-weight: bold;
+	width: 100%;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+
+.content-detail p {
+	margin: 5px 20px 30px;
+	position: relative;
+}
+
+.content-detail p a{
+	color: #61122f;
+	position: absolute;
+	right: 0;
+	bottom: 10;
+	width: 100%;
+	text-align: right;
+}
+.content-detail p a:hover {
+	text-decoration: none;
+}
